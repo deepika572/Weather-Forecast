@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="weather.js" defer></script>
+    <script src="skycons.js"></script>
+</head>
+
+<body>
+    <!-- <div class="location">
+        <h1 class="location-timezone">TimeZone</h1>
+        <canvas id="icon" width="128" height="128"></canvas>
+    </div>
+    <div class="temperature">
+        <div class="degree-section">
+            <h2 class="degree"></h2>
+            <span>C</span>
+            <h4 class="min">(Min)</h4> / <h4 class="max">(Max)</h4>
+        </div>
+        <div class="description">Frizzy</div>
+    </div> -->
+    <div class="app-main">
+        <div class="searchInputBox">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter City Name..." autocomplete="off">
+        </div>
+        <div class="weather-body">
+            <div class="location-details">
+                <div class="city" id="city">Get Weather Status of different city</div>
+                <div class="date" id="date"></div>
+            </div>
+            <div class="weather-status">
+                <div class="temp" id="temp"></div>
+                <div class="min-max" id="min-max"></div>
+                <div class="weather" id="weather"></div>
+                <div class="img" id="img">
+                    <canvas id="icon" width="100" height="100"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
